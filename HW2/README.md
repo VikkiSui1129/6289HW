@@ -11,5 +11,5 @@ c.
 ![alt text](https://github.com/VikkiSui1129/6289HW/blob/f36f56561cade9af0d7a26fc7fdd93437aeeb4a9/HW2/q3_1.png)
 ![alt text](https://github.com/VikkiSui1129/6289HW/blob/f36f56561cade9af0d7a26fc7fdd93437aeeb4a9/HW2/q3_2.png)
 1. The training accuracy always keep increasing. CNN without dropout or data augmentation has the highest training accuracy. This model is overfitted.
-2. 2. A lightweighted CNN network can't hold all information from a large dataset. If the model capacity is already low, lowering it further by adding dropout will hurt performance. As you can see the training/test accuracy becomes lower.
-3. 3. Data augmentation (horizontal/vertical flip) will reduce the overfitting problem. It will make the training accuracy and test accuracy closer. And test accuracy won't decrease even when training for large epochs.
+2. A lightweighted CNN network can't hold all information from a large dataset. If the model capacity is already low, lowering it further by adding dropout will hurt performance. As you can see the training/test accuracy becomes lower.
+3. Data augmentation (horizontal/vertical flip) will reduce the overfitting problem. It will make the training accuracy and test accuracy closer. And test accuracy won't decrease even when training for large epochs.
